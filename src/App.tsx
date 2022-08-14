@@ -31,7 +31,7 @@ function App() {
           <Select
             value="default value"
             optionProp={options}
-            onChange={(value) => someFunc(value)}
+            onChange={(value) => (value)}
           />
         </div>
         <div>
