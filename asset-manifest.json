@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/increase-muschle-caluculator-app/static/css/main.073c9b0a.css",
+    "main.js": "/increase-muschle-caluculator-app/static/js/main.6ba2e554.js",
+    "static/js/787.40af8863.chunk.js": "/increase-muschle-caluculator-app/static/js/787.40af8863.chunk.js",
+    "index.html": "/increase-muschle-caluculator-app/index.html",
+    "main.073c9b0a.css.map": "/increase-muschle-caluculator-app/static/css/main.073c9b0a.css.map",
+    "main.6ba2e554.js.map": "/increase-muschle-caluculator-app/static/js/main.6ba2e554.js.map",
+    "787.40af8863.chunk.js.map": "/increase-muschle-caluculator-app/static/js/787.40af8863.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6ba2e554.js"
+  ]
+}
