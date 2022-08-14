@@ -23,6 +23,7 @@ function App() {
       value: '2',
     },
   ]
+  // 変えるセレクトを
   return (
     <div>
       <h1>BMI計算機だよ</h1>
