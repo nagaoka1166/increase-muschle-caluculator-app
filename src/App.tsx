@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Select } from './component/Select';
 
-
-
+// 0.6kg × 7,000kcal ÷ 30日+ 2,000kcal＝2,140kcal（1日の目標摂取カロリー）
+// MonthlyIncreasWeightに入れた値を使って目標摂取カロリーを計算していく
 function App() {
   const [height, setHeight] = useState(0)
   const [weight, setWeight] = useState(0)
@@ -13,6 +13,12 @@ function App() {
     const bmi = weight / (height * height)
     setResult(bmi);
   }
+
+  // const submit = () => {
+  //   const  IncreaseDayCalorie = MonthlyIncreasWeight * 7000 / 30 * 2000
+  //   setResult(IncreaseDayCalorie);
+  // }
+
   const options = [
     {
       id: 0,
@@ -23,6 +29,11 @@ function App() {
       value: '2',
     },
   ]
+
+//   const onChangeUserName = (event: React.ChangeEvent<HTMLInputElement>) => {
+//     const value = event.target.value;
+//     setData({ ...data, userName: value });
+// }
   return (
     <div>
       <h1>BMI計算機だよ</h1>
