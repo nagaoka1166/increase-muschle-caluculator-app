@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Select } from './component/Select';
+// import InputLabel from '@mui/material/InputLabel';
+// import MenuItem from '@mui/material/MenuItem';
+// import FormControl from '@mui/material/FormControl';
+// import Select, { SelectChangeEvent } from '@mui/material/Select';
+
 
 // 0.6kg × 7,000kcal ÷ 30日+ 2,000kcal＝2,140kcal（1日の目標摂取カロリー）
 // MonthlyIncreasWeightに入れた値を使って目標摂取カロリーを計算していく
@@ -45,6 +49,15 @@ function App() {
             onChange={(value) => (value)}
           />
         </div>
+        {/* <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+        <InputLabel id="demo-simple-select-standard-label">Age</InputLabel>
+        <Select
+          labelId="demo-simple-select-standard-label"
+          id="demo-simple-select-standard"
+          value={age}
+          onChange={handleChange}
+          label="Age"
+        ></Select> */}
         <div>
           <label htmlFor="height">身長(m)</label>
           <input id="height" value={height} type="number"
